@@ -81,9 +81,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <center><img src="images/logo.png" class="img-com-so" style="width: 18rem;"></center>
         <form method="post" action=""> 
             <p>&nbsp;</p>
-            <p>Identifiant</p>
+            <p class="card-text" >Identifiant</p>
             <input type="text" name="login">
-            <p>Mot de passe</p>
+            <p class="card-text" >Mot de passe</p>
             <input type="password" name="password"> 
             <center><button type="submit" class="bn1">Connexion</button></center> 
         </form>
